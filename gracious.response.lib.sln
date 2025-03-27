@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gracious.response.lib", "src\gracious.response.lib.csproj", "{87DED743-40C4-4666-9E4A-208071CA7667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gracious.response.lib", "src\gracious.response.lib\gracious.response.lib.csproj", "{87DED743-40C4-4666-9E4A-208071CA7667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gracious.response.lib.tests", "src\gracious.response.lib.tests\gracious.response.lib.tests.csproj", "{B66221AB-3A06-47AC-9856-CB25BC532B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{87DED743-40C4-4666-9E4A-208071CA7667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DED743-40C4-4666-9E4A-208071CA7667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DED743-40C4-4666-9E4A-208071CA7667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66221AB-3A06-47AC-9856-CB25BC532B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66221AB-3A06-47AC-9856-CB25BC532B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66221AB-3A06-47AC-9856-CB25BC532B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66221AB-3A06-47AC-9856-CB25BC532B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
